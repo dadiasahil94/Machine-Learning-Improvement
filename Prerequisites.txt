@@ -2,23 +2,25 @@ TABLE OF CONTENTS:
 
 <Probability>
 <Linear Algebra>
-<Multivariate Gaussian>
+<Nptel and LDA>
+
 
 ---Probability---
-	Lecture 1 - Basic Probability - https://www.khanacademy.org/math/probability/independent-dependent-probability
-	Lecture 2 - Random Variables and Prob - https://www.khanacademy.org/math/probability/random-variables-topic
-	Lecture 3 - Probability - https://www.youtube.com/watch?v=wG_gQpXJNGU&index=3&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
-	Lecture 4 - Probability - https://www.youtube.com/watch?v=ns6YNl2fysg&index=4&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
-	Lecture 5 - Naive Bayes - https://www.youtube.com/watch?v=j3IGd5CjsVA&index=2&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
+	Step 1 - Basic Probability - https://www.khanacademy.org/math/probability/independent-dependent-probability
+	Step 2 - Random Variables and Prob - https://www.khanacademy.org/math/probability/random-variables-topic
+	Step 3 - Probability - https://www.youtube.com/watch?v=wG_gQpXJNGU&index=3&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
+	Step 4 - Probability - https://www.youtube.com/watch?v=ns6YNl2fysg&index=4&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
+	Step 5 - Naive Bayes - https://www.youtube.com/watch?v=j3IGd5CjsVA&index=2&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
 
 ---Linear Algebra---
-	Lecture 6 - Geometry of Linear Eqn - https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1
-	Lecture 7 - Intro to vectores - All videos - https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/vectors/v/vector-introduction-linear-algebra
-	Lecture 8 - Linear Comb and Span - https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_combinations/v/linear-combinations-and-span
-	Lecture 9 - Multiplication and Inverse of Matrix - https://www.youtube.com/watch?v=FX4C-JpTFgY&list=PL49CF3715CB9EF31D&index=3
-	Lecture 10 - Subspace Concept - https://www.youtube.com/watch?v=0gHg5X6ng_4
-	Lecture 11 - Subspace - https://www.youtube.com/watch?v=8o5Cmfpeo6g&list=PL49CF3715CB9EF31D&index=6
-	Lecture 12 - Solving Equations Ax=0 - https://www.youtube.com/watch?v=VqP2tREMvt0&list=PL49CF3715CB9EF31D&index=7
-	Lecture 13 - Solving Equations AX=b - https://www.youtube.com/watch?v=9Q1q7s1jTzU&list=PL49CF3715CB9EF31D&index=8
-	Lecture 14 - 
+	Step 6 - Geometry of Linear Eqn - https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1
+	Step 7 - Intro to vectores - All videos - https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/vectors/v/vector-introduction-linear-algebra
+	Step 8 - Linear Comb and Span - https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_combinations/v/linear-combinations-and-span
+	Step 9 - Multiplication and Inverse of Matrix - https://www.youtube.com/watch?v=FX4C-JpTFgY&list=PL49CF3715CB9EF31D&index=3
+	Step 10 - Subspace Concept - https://www.youtube.com/watch?v=0gHg5X6ng_4
+	Step 11 - Subspace - https://www.youtube.com/watch?v=8o5Cmfpeo6g&list=PL49CF3715CB9EF31D&index=6
+	Step 12 - Solving Equations Ax=0 - https://www.youtube.com/watch?v=VqP2tREMvt0&list=PL49CF3715CB9EF31D&index=7
+	Step 13 - Solving Equations AX=b - https://www.youtube.com/watch?v=9Q1q7s1jTzU&list=PL49CF3715CB9EF31D&index=8
+	Step 14 - Nptel Lecture Series - pattern recognition -lecture 1-18
+	Step 15	- code your own LDA
 
