@@ -3,24 +3,34 @@ TABLE OF CONTENTS:
 <Probability>
 <Linear Algebra>
 <Nptel and LDA>
+<SLAM>
 
 
 ---Probability---
-	Step 1 - Basic Probability - https://www.khanacademy.org/math/probability/independent-dependent-probability
-	Step 2 - Random Variables and Prob - https://www.khanacademy.org/math/probability/random-variables-topic
-	Step 3 - Probability - https://www.youtube.com/watch?v=wG_gQpXJNGU&index=3&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
-	Step 4 - Probability - https://www.youtube.com/watch?v=ns6YNl2fysg&index=4&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
-	Step 5 - Naive Bayes - https://www.youtube.com/watch?v=j3IGd5CjsVA&index=2&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
+	STEP 1 - Basic Probability - https://www.khanacademy.org/math/probability/independent-dependent-probability
+	STEP 2 - Random Variables and Prob - https://www.khanacademy.org/math/probability/random-variables-topic
+	STEP 3 - Probability - https://www.youtube.com/watch?v=wG_gQpXJNGU&index=3&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
+	STEP 4 - Probability - https://www.youtube.com/watch?v=ns6YNl2fysg&index=4&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
+	STEP 5 - Naive Bayes - https://www.youtube.com/watch?v=j3IGd5CjsVA&index=2&list=PLRv-5vxQLAu0S0eHD5Tdmt1h7xsYIEnut
 
 ---Linear Algebra---
-	Step 6 - Geometry of Linear Eqn - https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1
-	Step 7 - Intro to vectores - All videos - https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/vectors/v/vector-introduction-linear-algebra
-	Step 8 - Linear Comb and Span - https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_combinations/v/linear-combinations-and-span
-	Step 9 - Multiplication and Inverse of Matrix - https://www.youtube.com/watch?v=FX4C-JpTFgY&list=PL49CF3715CB9EF31D&index=3
-	Step 10 - Subspace Concept - https://www.youtube.com/watch?v=0gHg5X6ng_4
-	Step 11 - Subspace - https://www.youtube.com/watch?v=8o5Cmfpeo6g&list=PL49CF3715CB9EF31D&index=6
-	Step 12 - Solving Equations Ax=0 - https://www.youtube.com/watch?v=VqP2tREMvt0&list=PL49CF3715CB9EF31D&index=7
-	Step 13 - Solving Equations AX=b - https://www.youtube.com/watch?v=9Q1q7s1jTzU&list=PL49CF3715CB9EF31D&index=8
-	Step 14 - Nptel Lecture Series - pattern recognition -lecture 1-18
-	Step 15	- code your own LDA
+	STEP 6 - Geometry of Linear Eqn - https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1
+	STEP 7 - Intro to vectores - All videos - https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/vectors/v/vector--------introduction-linear-algebra
+	STEP 8 - Linear Comb and Span - https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/linear_combinations/v/linear-combinations-and-span
+	STEP 9 - Multiplication and Inverse of Matrix - https://www.youtube.com/watch?v=FX4C-JpTFgY&list=PL49CF3715CB9EF31D&index=3
+	STEP 10 - Subspace Concept - https://www.youtube.com/watch?v=0gHg5X6ng_4
+	STEP 11 - Subspace - https://www.youtube.com/watch?v=8o5Cmfpeo6g&list=PL49CF3715CB9EF31D&index=6
+	STEP 12 - Solving Equations Ax=0 - https://www.youtube.com/watch?v=VqP2tREMvt0&list=PL49CF3715CB9EF31D&index=7
+	STEP 13 - Solving Equations AX=b - https://www.youtube.com/watch?v=9Q1q7s1jTzU&list=PL49CF3715CB9EF31D&index=8
+	STEP 14 - Nptel Lecture Series - pattern recognition -lecture 1-18
+	STEP 15	- code your own LDA
+	
+---SLAM---
+	STEP 16 - See cyrill stanchill SLAM video lectures (lecture 1 to lecture 4) , (You might not understand everything in the 4rd lecture)
+	Search : kalman filter bzarg for understandign the kalman filter. Its the easiest tutorial out there.
+	Again see the lecutre 4 till the 33 minutes
+	STEP 17 - Code your own Kalman filter algorithm, to get the understanding. (I did it in python)
+	STEP 18- Search : taylor series chris traile (He gives a good understanding of taylor series, very imp for EKF) or simply go to http://www.ctralie.com/Teaching/taylor/
+	Again see the rest of the 4th video to understand the EKF concept .Watch lecuture 5 for EKF implementations and optimization.
+	STEP 19 - Watch Kalm
 
