@@ -218,11 +218,8 @@ def COMPUTE_VARIANCE_RGB1(image, mean_array_rgb):
     for row in range(image.shape[0]):
         for col in range(image.shape[1]):
             var = (image[row][col] - mean_array_rgb)
-            # t_var = var[ : , None]  #transpose of 1-D matrix , for others
-            # size of matrix use matrix.transepose() function
-            # transpose of 1-D matrix for others use matrix.transepose()
             variance = variance + (var * var[:, None])
-    variance = variance / np.count_nonzero(image)
+    variance = variance / np.count_nonzero(image)   #change is here
     return variance
 
 
@@ -239,9 +236,6 @@ def COMPUTE_VARIANCE_RGB(image, mean_array_rgb):
     for row in range(image.shape[0]):
         for col in range(image.shape[1]):
             var = (image[row][col] - mean_array_rgb)
-            # t_var = var[ : , None]  #transpose of 1-D matrix , for others
-            # size of matrix use matrix.transepose() function
-            # transpose of 1-D matrix for others use matrix.transepose()
             variance = variance + (var * var[:, None])
     variance = variance / image.size
     return variance
@@ -584,3 +578,32 @@ def GENERATE_RANDOM_INTS(n_ints = 1 , min_val = -1000000, max_val = 1000000):
     for x in range(n_ints):
         y.append(random.randint(min_val,max_val))
     return y
+
+#### THIS FILE CONTAINS ALL THE HELPER FUNTIONS TO DO SMALL TASK#####
+
+def GENERATE_RANDOM_INTS(n_pts=1, n_dim=1, min_val=-100, max_val=100):
+    ''' Returns the numpy array of random numbers
+        INPUT :
+        n_ints = no of rando integers required
+        min_val = minium starting value
+        max_val = maximum starting value
+
+        OUTPUT:
+        numpy array of random numbers
+    '''
+    if min_val > max_val:
+        print ("ERROR! ERROR! in function GENERATE_RANDOM_INTS: \nMin value is greater than Max value. The differece between them should be atleast 1")
+        print ("Exiting the program")
+        sys.exit(-1)
+    elif min_val == max_val:
+        print ("ERROR! ERROR! in function GENERATE_RANDOM_INTS: \nMin value is equal to Max value. The differece between them should be atleast 1")
+        print ("Exiting the program")
+        sys.exit(-1)
+    else:
+        final_array = np.ones((n_pts, n_dim))
+        for m in range(n_dim):
+            y = []
+            for x in range(n_pts):
+                y.append(random.randint(min_val, max_val))
+            final_array[:, m] = np.array(y)
+        return final_array
