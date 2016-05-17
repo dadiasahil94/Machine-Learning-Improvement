@@ -39,7 +39,7 @@ import numpy as np
 '''
 
 
-def SCATTER_PLOT_3D(x,y,z,figure_no=1,marker='o',color='b',xlabel="X-Axis",ylabel = "Y-Axis",zlabel="Z-Axis",title = '3D SCATTER PLOT'):
+def SCATTER_PLOT_3D(x,y,z,figure_no=1,marker='o',color='b',xlabel="X-Axis",ylabel = "Y-Axis",zlabel="Z-Axis",title = '3D SCATTER PLOT', labs = 'Datapoint_1' ):
     ''' 3d scatter plot of data points'''
     fig = plt.figure(figure_no)
     ax = fig.add_subplot(111,projection='3d')
@@ -47,7 +47,7 @@ def SCATTER_PLOT_3D(x,y,z,figure_no=1,marker='o',color='b',xlabel="X-Axis",ylabe
     ax.set_ylabel(ylabel)
     ax.set_zlabel(zlabel)
     ax.set_title(title)
-    scatter = ax.scatter(x,y,z,color=color,marker=marker)
+    scatter = ax.scatter(x,y,z,color=color,marker=marker, label = labs)
     return scatter , figure_no
 
 def LINE_PLOT_3D(x,y,z,figure_no=1,marker='o',color='b',xlabel="X-Axis",ylabel = "Y-Axis",zlabel="Z-Axis",title = '3D LINE PLOT'):
@@ -96,7 +96,7 @@ def CONTOUR_PLOT_3D(x,y,z,figure_no=1,cmap=cm.coolwarm,xlabel="X-Axis",ylabel = 
     cont = ax.plot_surface(x,y,z,cmap=cm.coolwarm)
     return cont, figure_no
 
-def SCATTER_PLOT_2D(x,y=None,figure_no=1,marker='o',color='g',xlabel="X-Axis",ylabel = "Y-Axis",title = '2D SCATTER PLOT'):
+def SCATTER_PLOT_2D(x,y=None,figure_no=1,marker='o',color='g',xlabel="X-Axis",ylabel = "Y-Axis",title = '2D SCATTER PLOT', labs = 'Datapoint_1' ):
     ''' 2d scatter plot of data--y values not necessary'''
     fig = plt.figure(figure_no)
     ax = ax = fig.add_subplot(111)
@@ -105,11 +105,11 @@ def SCATTER_PLOT_2D(x,y=None,figure_no=1,marker='o',color='g',xlabel="X-Axis",yl
     ax.set_title(title)
     if y == None:
         y = np.arange(len(x))
-        scatter = ax.scatter(y,x,marker=marker,color=color)
+        scatter = ax.scatter(y,x,marker=marker,color=color, label = labs )
         ax.set_ylabel(ylabel+'--your values are here')
         return scatter , figure_no
     else:
-        scatter = ax.scatter(x,y,marker=marker,color=color)
+        scatter = ax.scatter(x,y,marker=marker,color=color, label = labs )
         return scatter, figure_no
 
 # def SCATTER_PLOT_2D(x,y,figure_no=1,xlabel="X-Axis",ylabel = "Y-Axis",title = '2D SCATTER PLOT'):
