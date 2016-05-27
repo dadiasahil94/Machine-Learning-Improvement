@@ -607,3 +607,21 @@ def GENERATE_RANDOM_INTS(n_pts=1, n_dim=1, min_val=-100, max_val=100):
                 y.append(random.randint(min_val, max_val))
             final_array[:, m] = np.array(y)
         return final_array
+
+
+def PUT_TEXT_ON_IMAGE(image , text , location = 'tl',size='s'):
+    row ,col,channel = image.shape
+    sizes = {'s':[0.8,0.05,0.95], \
+    'm':[1.5,0.10,0.90],\
+    'l':[2,0.15,0.85],
+    }
+    loc = {'tc': (int(col*0.5),int(0.5*row)) , \
+    'tl': (int(sizes[size][1]*col) , int(sizes[size][1]*row)) , \
+    'tr': (int(sizes[size][2]*col) , int(sizes[size][1]*row)), \
+    'br': (int(sizes[size][2]*row) , int(sizes[size][2]*row)), \
+    'bl': (int(sizes[size][1]*row) , int(sizes[size][2]*row)),
+    }
+    if type(location) == str:
+        cv2.putText(image,str(text), loc[location], cv2.FONT_HERSHEY_SIMPLEX, sizes[size][0], (255,255,0), thickness=2)
+    else:
+        cv2.putText(image,str(text), location, cv2.FONT_HERSHEY_SIMPLEX, sizes[size][0], (255,255,0), thickness=2)
