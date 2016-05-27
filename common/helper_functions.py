@@ -202,7 +202,7 @@ def COMPUTE_MEAN_RGB(image):
 
 
 def TRANSPOSE_1DMATRIX(matrix):
-    return (matrix[:, None])
+    return (matrix[:, None]).T
 
 
 def COMPUTE_VARIANCE_RGB1(image, mean_array_rgb):
